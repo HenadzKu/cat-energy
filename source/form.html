@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>CAT ENERGY</title>
+</head>
+<body>
+<header class="page-header">
+    <nav class="main-nav">
+        <button class="main-nav__toggle" type="button">Открыть меню</button>
+        <div class="main-nav__wrapper">
+            <ul class="main-list site-list">
+                <li class="site-list__item site-list__item--first-mobile">
+                    <a>
+                        <img src="https://via.placeholder.com/33x38" class="page-header__logo-cat" alt="CAT ENERGY" width="33" height="38">
+                        <img src="https://via.placeholder.com/101x18" class="page-header__logo-text" alt="CAT ENERGY" width="101" height="18">
+                    </a>
+                </li>
+                <li class="site-list__item">
+                    <a>Главная</a>
+                </li>
+                <li class="site-list__item">
+                    <a href="catalog.html">Каталог продукции</a>
+                </li>
+                <li class="site-list__item">
+                    <a href="form.html">Подбор программы</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="page-header__banner">
+        <b class="banner__title">Функциональное питание для котов</b>
+        <p class="banner__text">Занялся собой?Займись котом!</p>
+        <a href="form.html" class="banner__button button">Подобрать программу</a>
+    </div>
+</header>
+<main class="page-main page-form">
+    <h1 class="page-main__title page-form__title">Подбор программы</h1>
+    <p class="page-form__description">
+        Заполните анкету и мы подберем программу питания для вашего кота
+    </p>
+    <form class="form" action="https://echo.htmlacademy.ru" method="post">
+        <fieldset class="form__fieldset fieldset-cat">
+            <!--добавить легенд но тут его скрыть-->
+            <p class="fieldset-cat__field">
+                <label class="field__label" for="name">Имя:<sup>*</sup></label>
+                <input class="field__entry" id="name" type="text" placeholder="Барсик">
+            </p>
+            <p class="fieldset-cat__field">
+                <label class="field__label" for="weight">Вес (кг):<sup>*</sup></label>
+                <input class="field__entry" id="weight" type="text" placeholder="7">
+            </p>
+            <p class="fieldset-cat__field">
+                <label class="field__label" for="age">Возраст (лет):</label>
+                <input class="field__entry" id="age" type="text" placeholder="7">
+            </p>
+            <!--добавить список с радио-->
+        </fieldset>
+        <fieldset class="form__fieldset fieldset-programs">
+            <p class="fieldset-p__field">
+                <label class="field__label visually-hidden" for="phone">Контактный телефон</label>
+                <input class="field__entry" id="phone" type="text" placeholder="Контактный телефон">
+            </p>
+            <p class="fieldset-contacts__field">
+                <label class="field__label visually-hidden" for="e-mail">Контактный e-mail</label>
+                <input class="field__entry" id="e-mail" type="text" placeholder="Контактный e-mail">
+            </p>
+
+        </fieldset>
+        <fieldset class="form__fieldset fieldset-addinfo">
+            <p class="fieldset-addinfo__field">
+                <label class="field__label visually-hidden" for="addinfo">Доп. информация для мастера</label>
+                <textarea class="field__textarea" name="addinfo" id="addinfo" cols="30" rows="10">Доп. информация для мастера
+                </textarea>
+            </p>
+        </fieldset>
+        <fieldset class="form__fieldset beard-selection">
+            <legend class="form__legend">ВЫберите модель бороды:</legend>
+            <ul class="beard-selection__list">
+                <li class="beard-selection__item">
+                    <label for="admiral" class="field-label beard-selection__label">
+                        <input class="beard-selection__radio visually-hidden" type="radio" id="admiral">
+                        адмирал
+                    </label>
+                </li>
+                <li class="beard-selection__item">
+                    <label for="woodcutter" class="field-label beard-selection__label">
+                        <input class="beard-selection__radio visually-hidden" type="radio" id="woodcutter">
+                        лесоруб
+                    </label>
+                </li>
+                <li class="beard-selection__item">
+                    <label for="polar-explorer" class="field-label beard-selection__label">
+                        <input class="beard-selection__radio visually-hidden" type="radio" id="polar-Explorer">
+                        полярник
+                    </label>
+                </li>
+                <li class="beard-selection__item">
+                    <label for="boyar" class="field-label beard-selection__label">
+                        <input class="beard-selection__radio visually-hidden" type="radio" id="boyar">
+                        боярин
+                    </label>
+                </li>
+                <li class="beard-selection__item">
+                    <label for="sage" class="field-label beard-selection__label">
+                        <input class="beard-selection__radio visually-hidden" type="radio" id="sage">
+                        мудрец
+                    </label>
+                </li>
+            </ul>
+        </fieldset>
+        <fieldset class="form-fieldset additional-service">
+            <legend class="form__legend">Дополнительные услуги:</legend>
+            <ul class="additional-service__list">
+                <li class="additional-service__item">
+                    <label class="additional-service__label" for="Touch up the beard">
+                        <input type="checkbox" class="additional-service__checkbox visually-hidden" id="Touch up the beard">
+                        Подкрасить бороду
+                    </label>
+                </li>
+                <li class="additional-service__item">
+                    <label class="additional-service__label" for="Twist your mustache">
+                        <input type="checkbox" class="additional-service__checkbox visually-hidden" id="Twist your mustache">
+                        Накрутить усы
+                    </label>
+                </li>
+                <li class="additional-service__item">
+                    <label class="additional-service__label" for="Comb your beard">
+                        <input type="checkbox" class="additional-service__checkbox visually-hidden" id="Comb your beard">
+                        Причесать бороду
+                    </label>
+                </li>
+                <li class="additional-service__item">
+                    <label class="additional-service__label" for="Trim your temples">
+                        <input type="checkbox" class="additional-service__checkbox visually-hidden" id="Trim your temples">
+                        Подровнять виски
+                    </label>
+                </li>
+                <li class="additional-service__item">
+                    <label class="additional-service__label" for="Remove gray hair">
+                        <input type="checkbox" class="additional-service__checkbox visually-hidden" id="Remove gray hair">
+                        Убрать седину
+                    </label>
+                </li>
+                <li class="additional-service__item">
+                    <label class="additional-service__label" for="Polish the bald spot">
+                        <input type="checkbox" class="additional-service__checkbox visually-hidden" id="Polish the bald spot">
+                        Отполировать лысину
+                    </label>
+                </li>
+            </ul>
+        </fieldset>
+        <button class="button form__button" type="submit">Отправить заявку</button>
+    </form>
+</main>
+<footer class="page-footer">
+    <div class="page-footer__wrapper">
+        <div class="page-footer__contacts contacts">
+            <b class="contacts__title">
+                приглашаем к сотрудничеству дилеров!
+            </b>
+            <p class="contacts__text">
+                ул. Большая Конюшенная, д. 19/8  Санкт-Петербург
+            </p>
+        </div>
+        <div class="contacts__map">
+            <img src="https://via.placeholder.com/320x400" class="contacts__map-img" alt="Образ карты" width="320" height="400">
+        </div>
+        <div class="page-footer__logo">
+            <img src="https://via.placeholder.com/128x24" class="page-footer__logo-image" alt="Логотип" width="128" height="24">
+        </div>
+        <div class="page-footer__social social">
+            <ul class="social__list">
+                <li class="social__item">
+                    <a href="https://vk.com" class="social__link social__link--vkontakte">Мы в Вконтакте</a>
+                </li>
+                <li class="social__item">
+                    <a href="https://facebook.com" class="social__link social__link--facebook">Мы в Фейсбуке</a>
+                </li>
+                <li class="social__item">
+                    <a href="https://instagram.com" class="social__link social__link--instagram">Мы в Инстаграме</a>
+                </li>
+            </ul>
+        </div>
+        <div class="page-footer_copyright copyright">
+            <b class="copyright__text">Разработано</b>
+            <a href="#" class="button copyright__link">HenKu</a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
