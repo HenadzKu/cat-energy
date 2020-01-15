@@ -26,26 +26,4 @@ gulp.task('serve',function (done) {
     done();
 });
 gulp.task('default', gulp.series('less','serve'));
-/*gulp.task('server', gulp.series('less', function (done) {
-    browsersync.init({
-        server: "./source"
-    });
-
-    gulp.watch('source/less/!**!/!*.less', ['style']);
-    gulp.watch('source/!*.html').on('change', browsersync.reload);
-    done();
-}));*/
-/*gulp.task('serve', gulp.series('less', function(done) {
-
-    browsersync.init({
-
-        server: "./source"
-
-    });
-
-    gulp.watch('source/less/!**!/!*.less').on('change', browsersync.reload);
-
-    gulp.watch("source/!*.html").on('change', browsersync.reload);
-    done();
-}));*/
 
