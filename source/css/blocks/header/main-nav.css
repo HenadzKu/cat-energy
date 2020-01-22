@@ -1,0 +1,17 @@
+.main-nav {
+  background: #ffffff;
+}
+.main-nav .main-nav__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.main-nav .main-nav__list .site-list__item a {
+  font-family: Oswald;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #111111;
+}

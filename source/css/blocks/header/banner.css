@@ -1,0 +1,26 @@
+.page-header__banner {
+  background: green;
+}
+.page-header__banner .banner__title {
+  font-family: Oswald;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.page-header__banner .banner__text {
+  font-family: Oswald;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.page-header__banner .banner__button {
+  font-family: Oswald;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
+}
