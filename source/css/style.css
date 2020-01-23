@@ -73,3 +73,18 @@
   text-decoration: none;
   color: #111111;
 }
+.work {
+  background: #ffffff;
+}
+.work .work__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.work .work__list .work__item .work__text {
+  font-family: ArialMT;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #444444;
+}
