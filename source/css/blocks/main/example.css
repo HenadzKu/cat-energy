@@ -30,3 +30,11 @@
   font-weight: 400;
   color: #444444;
 }
+.example .example__wrapper .example__weight-days .example__text-result {
+  font-family: Oswald;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #111111;
+}
